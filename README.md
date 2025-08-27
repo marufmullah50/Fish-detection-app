@@ -27,7 +27,7 @@ This project classifies freshwater fish species using a **Vision Transformer (Vi
 1. Clone the repository:
 
 ```bash
-git clone <your-repo-link>
+git clone <https://github.com/marufmullah50/Fish-detection-app/tree/main>
 cd fish_detection_app
 Create a virtual environment:
 
