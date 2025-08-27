@@ -72,10 +72,8 @@ graphql
 Copy code
 fish_detection_app/
 ├─ main_app.py          # Streamlit app
-├─ model/               # Trained ViT model and weights
-├─ data/                # Sample images or datasets
+├─ model/               # Trained ViT model and weights                
 ├─ requirements.txt
-└─ README.md
 License
 MIT License
 
