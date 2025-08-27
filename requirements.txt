@@ -1,0 +1,8 @@
+streamlit==1.28.0
+numpy
+opencv-python
+plotly
+requests
+beautifulsoup4
+tensorflow
+keras
