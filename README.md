@@ -1,7 +1,7 @@
 # BD Freshwater Fish Detection and Classification
 
 This project classifies freshwater fish species using a **Vision Transformer (ViT)** model and provides a **Streamlit app** for real-time predictions and information on them.
-
+Image source : https://data.mendeley.com/datasets/2gkj4h388d/3
 ---
 
 ## Features
