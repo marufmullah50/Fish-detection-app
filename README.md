@@ -1,13 +1,13 @@
 # BD Freshwater Fish Detection and Classification
 
-This project classifies freshwater fish species using a **MobileNetV2** model and provides a **Streamlit app** for real-time predictions and information on them.
+This project classifies freshwater fish species using a **Vision Transformer (ViT)** model and provides a **Streamlit app** for real-time predictions and information on them.
 Image source: [https://data.mendeley.com/datasets/2gkj4h388d/3](https://data.mendeley.com/datasets/2gkj4h388d/3)
 
 ---
 
 ## Features
 
-* Trains a **MobileNetV2 model** for fish species classification.
+* Trains a **Vision Transformer (ViT) model** for fish species classification.
 * Interactive **Streamlit app** for uploading images and predicting fish species.
 * Supports **12 Bangladeshi freshwater fish species**.
 
@@ -48,7 +48,7 @@ pip install -r requirements.txt
 ```
 
 4. Pre-trained Model
-   Download the pre-trained **MobileNetV2 model** from Google Drive:
+   Download the pre-trained **Vision Transformer (ViT) model** from Google Drive:
    [Download Model](https://drive.google.com/file/d/1lBkY_JXJc6Bj2ovZVxolcnppYETMCAsb/view?usp=drive_link)
 
 Place the downloaded model in the `model/` folder before running the app.
@@ -88,7 +88,7 @@ streamlit run main_app.py
 ```
 fish_detection_app/
 ├─ main_app.py          # Streamlit app
-├─ model/               # Trained MobileNetV2 model and weights                
+├─ model/               # Trained ViT model and weights                
 ├─ requirements.txt
 ```
 
