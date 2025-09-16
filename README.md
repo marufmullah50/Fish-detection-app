@@ -5,7 +5,7 @@ Image source : https://data.mendeley.com/datasets/2gkj4h388d/3
 ---
 
 ## Features
-- Trains a **ViT model** for fish species classification.
+- Trains a **Mobile net V2 model** for fish species classification.
 - Interactive **Streamlit app** for uploading images and predicting fish species.
 - Supports  12 bd freshwater fish species.
 
