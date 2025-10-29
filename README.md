@@ -71,6 +71,6 @@ Folder Structure
 bash
 Copy code
 fish_detection_app/
-├─ main_app.py          # Streamlit app
+├─ app.py          # Streamlit app
 ├─ model/               # Trained MobileNetV2 model and weights                
 ├─ requirements.txt
