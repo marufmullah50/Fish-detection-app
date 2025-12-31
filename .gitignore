@@ -1,0 +1,100 @@
+cat <<EOF > .gitignore
+# ===============================
+# Data files
+# ===============================
+*.csv
+*.tsv
+*.xlsx
+
+# ===============================
+# ML / DL models
+# ===============================
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.onnx
+*.joblib
+*.pkl
+
+# ===============================
+# Images
+# ===============================
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+
+# ===============================
+# Compressed files
+# ===============================
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# ===============================
+# Simulation outputs (CFD / FEA)
+# ===============================
+*.vtk
+*.vtu
+*.odb
+*.dat
+*.res
+*.foam
+
+# ===============================
+# Notebooks & cache
+# ===============================
+.ipynb_checkpoints/
+__pycache__/
+
+# ===============================
+# OS / editor junk
+# ===============================
+.DS_Store
+Thumbs.db
+EOF
+
+# ===============================
+# Secrets & credentials
+# ===============================
+.env
+.env.*
+*.env
+
+# API keys / tokens
+apikey.txt
+secrets.json
+credentials.json
+config.json
+*.pem
+*.key
+
+# ===============================
+# Cloud / service credentials
+# ===============================
+.aws/
+.gcp/
+.azure/
+
+# ===============================
+# Python config with secrets
+# ===============================
+settings.py
+local_settings.py
+
+# ===============================
+# Notebooks & cache
+# ===============================
+.ipynb_checkpoints/
+__pycache__/
+
+# ===============================
+# OS junk
+# ===============================
+.DS_Store
+Thumbs.db
+
