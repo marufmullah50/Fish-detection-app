@@ -139,7 +139,7 @@ if "predicted" not in st.session_state:
     st.session_state.predicted = False
 
 with col1:
-    uploaded = st.file_uploader("📤 Upload an image", type=["jpg","jpeg","png"])
+    uploaded = st.file_uploader("📤 Upload an image(jpg,jpeg or png)", type=["jpg","jpeg","png"])
     detect_btn = st.button("🔍 Detect")
     reset_btn = st.button("🔄 Reset")
 
